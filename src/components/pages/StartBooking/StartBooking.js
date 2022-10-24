@@ -63,7 +63,7 @@ const StartBooking = () => {
                     </div>
                 </div>
                 <div>
-                    <Link to='/signup'>
+                    <Link to='/destination'>
                         <button
                             type='submit'
                             className='w-full px-8 py-3 font-semibold rounded-md bg-orange-500 hover:bg-gray-700 hover:text-white text-gray-100'

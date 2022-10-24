@@ -34,6 +34,9 @@ const Header = () => {
                                 {user?.email ?
                                     <>
                                         <li className="mx-2">
+                                            <NavLink to={"/destination"}>Destination</NavLink>
+                                        </li>
+                                        <li className="mx-2">
                                             <NavLink to={"/profile"}>{user.displayName}</NavLink>
                                         </li>
                                         <li className="mx-2">
@@ -75,6 +78,9 @@ const Header = () => {
                                 </li>
                                 {user?.email ?
                                     <>
+                                        <li className="mx-2">
+                                            <NavLink to={"/destination"}>Destination</NavLink>
+                                        </li>
                                         <li className="mx-2">
                                             <NavLink to={"/profile"}>{user.displayName}</NavLink>
                                         </li>
